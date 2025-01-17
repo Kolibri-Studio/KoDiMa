@@ -1,0 +1,78 @@
+# Kolibri Direct Mail (KoDiMa)
+
+## Overview
+Kolibri Direct Mail (KoDiMa) is an advanced encrypted email system designed for integration within the Kolibri Yggdrasil AI Routing Network (KYARN). It provides seamless tools for project management, secure communication, and decentralised collaboration, leveraging Yggdrasil's encrypted network protocols.
+
+### Key Features
+- **Post-quantum Security**: Resistant to quantum computing threats with support for post-quantum cryptography algorithms.
+- **Encrypted Communication**: Email service with support for keys larger than 8192 bits.
+- **Decentralised Architecture**: Built on the Yggdrasil protocol, ensuring robust privacy and resilience.
+- **Integrated Tools**: Project management, reporting, and internal correspondence.
+- **Quantum-safe Key Signing**: Enhanced security through key signing exceeding 16,384 bits.
+
+## Installation
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/kolibri-studio/kodima.git
+   cd kodima
+   ```
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Set up Yggdrasil Configuration**
+   - Follow [Yggdrasil setup guide](https://yggdrasil-network.github.io/). Ensure the configuration file is located in `/etc/yggdrasil.conf`.
+
+4. **Start the Application**
+   ```bash
+   python main.py
+   ```
+
+## Usage
+1. Access the service via your browser at `http://localhost:8080`.
+2. Create a new account or log in with existing credentials.
+3. Configure your project settings and email preferences within the dashboard.
+
+## Security Features
+### Post-quantum Cryptography
+- Uses CRYSTALS-Kyber and CRYSTALS-Dilithium algorithms for quantum-resistant encryption.
+- Ensures data integrity and authenticity using hybrid cryptographic methods.
+
+### Key Management
+- Supports key lengths exceeding 8192 bits for traditional algorithms like RSA.
+- Automated key rotation to reduce exposure to potential vulnerabilities.
+
+## Contribution
+We welcome contributions from the community! Please follow the guidelines below:
+
+### How to Contribute
+1. **Fork the Repository**
+   - Click the "Fork" button on GitHub to create your copy of the repository.
+2. **Create a Feature Branch**
+   - Branch naming convention: `feature/your-feature-name`.
+   ```bash
+   git checkout -b feature/my-awesome-feature
+   ```
+3. **Submit a Pull Request**
+   - Provide a clear description of the changes made.
+   - Link any relevant issues or discussions.
+
+### Reporting Issues
+Found a bug or have a feature request? Open an issue [here](https://github.com/kolibri-studio/kodima/issues).
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Roadmap
+- Integration with KYARN's routing and traffic optimisation.
+- Enhanced support for satellite-based communications (e.g., Starlink).
+- Continuous updates to stay ahead of quantum computing advancements.
+
+## Acknowledgements
+Special thanks to the Yggdrasil and post-quantum cryptography communities for their foundational work.
+
+---
+### Stay Updated
+Follow our progress on [Kolibri Studio's GitHub](https://github.com/kolibri-studio).
+
+
